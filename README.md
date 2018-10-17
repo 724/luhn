@@ -1,3 +1,23 @@
+[ ![Download](https://api.bintray.com/packages/farhad/maven/luhn/images/download.svg) ](https://bintray.com/farhad/maven/luhn/_latestVersion)
+
+```
+	repositories {
+		jcenter()
+	}
+	
+	implementation 'io.github.the724:luhn:[latest-version]'
+	
+```
+
+In the Java/Android code :
+
+```
+	if(LuhnChecksum.evaluate("your-expression")){
+		/**
+		* the expression checksum is correct ( e.g a creditcard number )
+		*/
+	}
+```
 
 ### Luhn Algorithm
 
@@ -5,7 +25,7 @@ The Luhn algorithm or Luhn formula, also known as the "modulus 10" or "mod 10" a
 
 The algorithm is in the public domain and is in wide use today. It is specified in ISO/IEC 7812-1.[1] It is not intended to be a cryptographically secure hash function; it was designed to protect against accidental errors, not malicious attacks. Most credit cards and many government identification numbers use the algorithm as a simple method of distinguishing valid numbers from mistyped or otherwise incorrect numbers.
 
-## License
+### License
 
     Copyright (C) 2018  Farhad Faghihi
 
