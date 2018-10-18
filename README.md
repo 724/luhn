@@ -1,22 +1,22 @@
 [ ![Download](https://api.bintray.com/packages/farhad/maven/luhn/images/download.svg) ](https://bintray.com/farhad/maven/luhn/_latestVersion)
 
 ```
-	repositories {
-		jcenter()
-	}
-	
-	implementation 'io.github.the724:luhn:[latest-version]'
+repositories {
+	jcenter()
+}
+
+implementation 'io.github.the724:luhn:[latest-version]'
 	
 ```
 
 In the Java/Android code :
 
 ```
-	if(LuhnChecksum.evaluate("your-expression")){
-		/**
-		* the expression checksum is correct ( e.g a creditcard number )
-		*/
-	}
+if(LuhnChecksum.evaluate("your-expression")){
+	/**
+	* the expression checksum is correct ( e.g a creditcard number )
+	*/
+}
 ```
 
 ### Luhn Algorithm
