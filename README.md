@@ -1,6 +1,6 @@
 [ ![Download](https://api.bintray.com/packages/farhad/maven/luhn/images/download.svg) ](https://bintray.com/farhad/maven/luhn/_latestVersion)
 
-```
+```groovy
 repositories {
 	jcenter()
 }
@@ -11,7 +11,7 @@ implementation 'io.github.the724:luhn:[latest-version]'
 
 In the Java/Android code :
 
-```
+```java
 if(LuhnChecksum.evaluate("your-expression")){
 	/**
 	* the expression checksum is correct ( e.g a creditcard number )
